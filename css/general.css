@@ -53,6 +53,8 @@ header {
     font-size: 2rem;
     color: white;
     display: inline-block;
+    margin-right: 1rem;
+    margin-top: .8rem;
 }
 
 .nav2 {
@@ -68,7 +70,8 @@ header {
     font-family: garamond;
     font-size: 2rem;
     display: inline;
-    color: white;   
+    color: white;
+    margin-left: 1rem
 }
 hr {
   border: solid purple 1px;
@@ -97,6 +100,7 @@ h1 {
 }
 
 .footer2 {
+    margin: 6px;
     height: 4rem;
     width: auto;
 }
