@@ -25,3 +25,101 @@ img {
 	width: 100%;
     display: block;
 }
+
+.logo {
+    margin: left;
+    width: 6rem;
+    height: auto;
+}
+
+
+header { 
+    background-color: #330033;
+    height: 4rem;
+    margin: 0;
+}
+
+.nav {
+    margin: 0;
+    padding: 0;
+    background-color: #330033;
+    height: 4rem;
+}
+
+.nav1 {
+    margin: 0;
+    padding: 0;
+    font-family: garamond;
+    font-size: 2rem;
+    color: white;
+    display: inline-block;
+}
+
+.nav2 {
+    margin: 0;
+    padding: 0;
+    font-family: garamond;
+    font-size: 2rem;
+    display:inline;
+    color: white;
+}
+
+.nav3 {
+    font-family: garamond;
+    font-size: 2rem;
+    display: inline;
+    color: white;   
+}
+hr {
+  border: solid purple 1px;
+}
+
+p {
+    font-family: Stalemate;
+    font-size: 3rem;
+    text-align: center;
+    
+}
+
+h1 {
+    font-family: garamond;
+    font-size: 6.5rem;
+    text-align: center;
+}
+
+.peaches {
+   position: a
+}
+
+.footer {
+    background-color: #330033;
+    height: 4rem;
+}
+
+.footer2 {
+    height: 4rem;
+    width: auto;
+}
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
