@@ -26,6 +26,12 @@ img {
     display: block;
 }
 
+header { 
+    background-color: #330033;
+    height: 4rem;
+    margin: 0;
+    padding: 0;
+}
 .logo {
     margin: left;
     width: 6rem;
@@ -33,62 +39,84 @@ img {
 }
 
 
-header { 
-    background-color: #330033;
-    height: 4rem;
+.nav-top {
     margin: 0;
-}
-
-.nav {
-    margin: 0;
-    padding: 0;
-    background-color: #330033;
-    height: 4rem;
+    padding: 4px;
+    height: 3rem;
 }
 
 .nav1 {
     margin: 0;
-    padding: 0;
+    padding: 15px;
     font-family: garamond;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: white;
-    display: inline-block;
-    margin-right: 1rem;
-    margin-top: .8rem;
+    display: inline;
+    background-color: #330033;    
 }
 
 .nav2 {
     margin: 0;
-    padding: 0;
+    padding: 15px;
     font-family: garamond;
-    font-size: 2rem;
-    display:inline;
+    font-size: 1.5rem;
     color: white;
+    display: inline;
+    background-color: #330033;  
 }
 
 .nav3 {
+    margin: 0;
+    padding: 15px;
     font-family: garamond;
-    font-size: 2rem;
-    display: inline;
+    font-size: 1.5rem;
     color: white;
-    margin-left: 1rem
+    display: inline;
+    background-color: #330033;  
 }
-hr {
-  border: solid purple 1px;
+
+.hr {
+    margin-top: 1.3rem;
+    background-color:#330033;
+    align-content: center;
+    width: 19rem;
+    
+    
 }
 
 p {
     font-family: Stalemate;
     font-size: 3rem;
+    color: #330033;
     text-align: center;
-    
+    padding: 1rem;
+    margin: 0 0 0rem;
+    margin-top: 5rem;
+    line-height: 0;
 }
-
-h1 {
+        
+.h1 {
     font-family: garamond;
     font-size: 6.5rem;
+    color: #fc9e49;
     text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0;
+    line-height: 4rem;
 }
+    
+    
+.p2 {
+    font-family: Stalemate;
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem;
+    margin: 0 0 0rem;
+    line-height: 0; 
+    margin-bottom: 2rem;
+}
+
 
 .peaches {
    position: a
