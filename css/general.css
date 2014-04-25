@@ -25,94 +25,98 @@ img {
 	width: 100%;
     display: block;
 }
-header { 
-    background-color: #330033;
-    height: 4rem;
+
+body {
     margin: 0;
-    padding: 0;    
+    padding: 0;
 }
+
+/* Header */
+
+header {
+    background-color: #330033;
+    overflow: hidden;
+}
+
 .logo {
-    margin: left;
     width: 6rem;
     height: auto;
+    margin: 1.5rem 5%;    
 }
-
 
 .nav-top {
-    margin: 0;
-    padding: 4px;
-    height: 3rem;
-}
-.nav1 {
-    margin: 0;
-    padding: 15px;
-    font-family: garamond;
-    font-size: 1.5rem;
-    color: white;
-    display: inline;
-    background-color: #330033;    
-}
-.nav2 {
-    margin: 0;
-    padding: 15px;
-    font-family: garamond;
-    font-size: 1.5rem;
-    color: white;
-    display: inline;
-    background-color: #330033;  
-}
-.nav3 {
-    margin: 0;
-    padding: 15px;
-    font-family: garamond;
-    font-size: 1.5rem;
-    color: white;
-    display: inline;
-    background-color: #330033;  
+    clear:both;
 }
 
-.hr {
-    margin-top: 1.3rem;
-    background-color:#330033;
-    align-content: center;
-    width: 19rem;
-    height: 5px;    
-}
-p {
-    font-family: Stalemate;
-    font-size: 3rem;
-    color: #330033;
-    text-align: center;
-    padding: 1rem;
-    margin: 0 0 0rem;
-    margin-top: 5rem;
-    line-height: 0;
-}       
-.h1 {
-    font-family: garamond;
-    font-size: 6rem;
-    color: #fc9e49;
-    text-align: center;
+.nav-top ul {
+    margin: 0;
     padding: 0;
-    margin: 0;
-    margin-bottom: 0;
-    line-height: 4rem;
-} 
-.p2 {
-    font-family: Stalemate;
-    font-size: 3rem;
+    background-color: #fc9e49; 
     text-align: center;
-    padding: 1rem;
-    margin: 0 0 0rem;
-    line-height: 0; 
-    margin-bottom: 2rem;
+}
+.nav-top li {
+    margin: 0;
+    padding: 0;
+    display: inline;   
 }
 
+.nav-top a,
+.nav-top a:link,
+.nav-top a:visited {
+    display: inline-block;
+    margin: 0;
+    padding: 1.5rem 8%;
+    color: #330033;
+    font-size: 1.15rem;
+    text-decoration: none;
+
+}
+
+/* Billboard */
+
+.billboard {
+    background-image: url(../images/resized-peaches.jpg);
+    overflow: hidden;
+}
+
+.billboard h1 {
+    margin: 8rem 0;
+    padding: 1.5rem 5%;
+    color: white;
+    background-color: rgba(252, 158, 73, .6);
+}
+
+
+article {
+    padding: 1.5rem 5%;
+    overflow: hidden;
+}
+
+hr{
+    background-color: #330033;
+    width: auto;
+    height: 2px;
+    border: none;
+    
+}
+
+article p {
+    font-family: garamond;
+    font-size: 1.2rem;
+    color: #fc9e49; 
+        
+}
+   
+article h2 {
+    font-family: bold garamond;
+    font-size: 1.5rem;
+    color: #330033;
+    padding: .5rem;
+    text-align: center;
 }
 
 .bucket1 { 
-    overflow: inherit;
-    background-color: white; 
+    overflow: hidden;
 }
 
 .bucket1 figure {
@@ -125,7 +129,7 @@ p {
 .bucket1 a:visited {
     float: left;
     width: 45%; 
-    margin: 0 10% 1.5rem 0; 
+    margin: 0 10% 0 0; 
     padding: 0;
 }
 
@@ -134,22 +138,94 @@ p {
 }
 
 .bucket1 figcaption {
-    background-color:  white;
+    background-color:  white; 
+    color: #330033;
+    font-family: stalemate;
+    font-size: 2rem;
+}
+
+footer {
+    background-color: #330033;
+    overflow:hidden;
+}
+
+footer p {
+    font-size: 1rem;
+    font-family: garamond;
+    margin: 1.5rem 5% 5rem;
+    color: white;
+}
+
+article2 h2{
+    font-family: garamond;
+    font-size: 2rem;
+    color: #330033;
+    text-align: center
+}
+
+
+.products { 
+    overflow: hidden;
+}
+
+.products figure {
+    margin: 0;
+    padding: 0;
+}
+
+.products a,
+.products a:link,
+.products a:visited {
+    float: left;
+    width: 40%; /* First and second buckets. 45% x 2 = 90% */ 
+    margin: 0 10% 0 1.5rem; 
+    padding: 0;
+}
+
+footer {
+    background-color: #330033;
+    overflow:hidden;
+}
+
+footer p {
+    font-size: 1rem;
+    font-family: garamond;
+    margin: 1.5rem 5% 5rem;
+    color: white;
+}
+
+
+.bucket3 {
+    overflow: hidden;
+    margin: 0 0 1.5rem;
+    padding: 0;
+    background-color: white;
+}
+
+.bucket3 img {
+    float: left;
+    width: 30%; 
+    margin: 0 10% 0 1.5rem;
+    padding: 0;
     
 }
 
-.about{
-    font: garamond;
+.bucket3 figcaption {
+    float: right;
+    width: 50%;
+    margin: 0;
+    padding: 1rem;
+    background-color: #fc9e49;
+    color: white;
+    font-family: bold garamond;
     
 }
-.footer {
-    height: 4rem;
-    background-color: #330033;    
-}
-.footer2 {
-    margin: 6px;
-    height: 4rem;
-    width: auto;
-    
 
+article p6 {
+    margin-left: 1.5rem;
+    font-family: stalemate;
+    font-size: 2rem;
+    color: #330033;
+    
 }
+
