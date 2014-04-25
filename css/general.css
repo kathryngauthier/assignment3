@@ -177,7 +177,7 @@ article2 h2{
 .products a:link,
 .products a:visited {
     float: left;
-    width: 40%; /* First and second buckets. 45% x 2 = 90% */ 
+    width: 40%;
     margin: 0 10% 0 1.5rem; 
     padding: 0;
 }
